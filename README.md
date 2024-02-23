@@ -14,7 +14,7 @@ CriticBench: Benchmarking LLMs for Critique-Correct Reasoning
 <p align="center">
   <a href="https://criticbench.github.io/"><b>[🌐 Website]</b></a> •
   <a href="https://arxiv.org/abs/2402.14809"><b>[📜 Paper]</b></a> •
-  <a href="https://huggingface.co/TODO"><b>[🤗 Dataset]</b></a> •
+  <a href="https://huggingface.co/datasets/llm-agents/CriticBench"><b>[🤗 Dataset]</b></a> •
   <a href="https://github.com/CriticBench/CriticBench"><b>[🐱 GitHub]</b></a>
   <br>
   <!-- <a href="https://twitter.com/TODO"><b>[🐦 Twitter]</b></a> • -->
