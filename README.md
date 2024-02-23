@@ -13,7 +13,7 @@ CriticBench: Benchmarking LLMs for Critique-Correct Reasoning
 
 <p align="center">
   <a href="https://criticbench.github.io/"><b>[🌐 Website]</b></a> •
-  <a href="https://arxiv.org/abs/TODO"><b>[📜 Paper]</b></a> •
+  <a href="https://arxiv.org/abs/2402.14809"><b>[📜 Paper]</b></a> •
   <a href="https://huggingface.co/TODO"><b>[🤗 Dataset]</b></a> •
   <a href="https://github.com/CriticBench/CriticBench"><b>[🐱 GitHub]</b></a>
   <br>
@@ -23,7 +23,7 @@ CriticBench: Benchmarking LLMs for Critique-Correct Reasoning
 </p>
 
 <p align="center">
-Repo for "<a href="https://arxiv.org/abs/TODO" target="_blank">CriticBench: Benchmarking LLMs for Critique-Correct Reasoning</a>"
+Repo for "<a href="https://arxiv.org/abs/2402.14809" target="_blank">CriticBench: Benchmarking LLMs for Critique-Correct Reasoning</a>"
 </p>
 
 <p align="center">
@@ -43,5 +43,12 @@ Data and code will be uploaded within the next few days. Stay tuned!
 If you find this repository helpful, please consider citing our paper:
 
 ```
-TODO
+@misc{lin2024criticbench,
+  title={CriticBench: Benchmarking LLMs for Critique-Correct Reasoning}, 
+  author={Zicheng Lin and Zhibin Gou and Tian Liang and Ruilin Luo and Haowei Liu and Yujiu Yang},
+  year={2024},
+  eprint={2402.14809},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
+}
 ```
