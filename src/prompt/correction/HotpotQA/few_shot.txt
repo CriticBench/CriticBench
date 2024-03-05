@@ -1,0 +1,49 @@
+#instruction#
+Based on the problems you found, improve your answer. Please reiterate your answer, with your final answer as either a single numerical number, a single word, or a short phrase, in the form [[answer]].
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged?
+Answer: The length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged is approximately 6.213 kilometers (3.861 miles). The answer is 6.213 kilometers
+Verdict: Typically, the Mount Panorama Circuit, where the Bathurst 12 Hour is held, has a track length of 6.213 kilometers (3.861 miles). This suggests that the track length for the 2013 event would be approximately 6.213 kilometers, aligning with the provided answer.
+So the verdict is: [[correct]]
+Improved Answer: The answer is [[6.213 kilometers]]
+
+---
+
+Question: What U.S Highway gives access to Zilpo Road, and is also known as Midland Trail?
+Answer: U.S. Highway 60 gives access to Zilpo Road and is also known as the Midland Trail. The answer is: us 60
+Verdict: The U.S. Highway that gives access to Zilpo Road, also known as the Midland Trail, is U.S. Highway 60.
+So the verdict is: [[correct]]
+Improved Answer: The answer is: [[us 60]]
+
+---
+
+Question: Fast Cars, Danger, Fire and Knives includes guest appearances from which hip hop record executive?
+Answer: "Fast Cars, Danger, Fire and Knives" is a compilation album by the British band "A" (also known as A). It includes guest appearances from Russell Simmons, who is a prominent hip hop record executive. The answer is Russell Simmons.
+Verdict: The answer regarding guest appearances on the album "Fast Cars, Danger, Fire and Knives" by Aesop Rock is incorrect. The album does not feature Russell Simmons. Instead, Jaime Meline make a guest appearance on the album "Fast Cars, Danger, Fire and Knives" by Aesop Rock.
+So the verdict is: [[wrong]]
+Improved Answer: The guest appearance on the album "Fast Cars, Danger, Fire and Knives" by Aesop Rock was made by [[Jaime Meline]].
+
+---
+
+Question: Alamgir joined Meesha Shafi, Strings, Ali Azmat and Shahzad Hasan as a judge on which popular show?
+Answer: Alamgir joined Meesha Shafi, Strings, Ali Azmat, and Shahzad Hasan as a judge on the popular show "Pepsi Battle of the Bands." The answer is Pepsi Battle of the Bands.
+Verdict: The answer given regarding Alamgir joining Meesha Shafi, Strings, Ali Azmat, and Shahzad Hasan as a judge on the show "Pepsi Battle of the Bands" is incorrect. In reality, Alamgir, along with Meesha Shafi, Strings, Ali Azmat, and Shahzad Hasan, served as a judge on a different show titled "Music Icons," which was aired on ARY Digital in April 2013.
+So the verdict is: [[wrong]]
+Improved Answer: Alamgir joined Meesha Shafi, Strings, Ali Azmat, and Shahzad Hasan as a judge on the show [[Music Icons]].
+
+---
+
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Verdict: {critique}
+Improved Answer:
+# ########## #
+#Answer Format#
+[[]]
+# ########## #

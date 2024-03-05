@@ -1,0 +1,14 @@
+#instruction#
+# ########## #
+#Example#
+# ########## #
+#Question#
+Code:
+{solution}
+Verdict: {critique}
+Based on the problems you found, improve your code in the JSON format as follows: {"code":"improved code"}.
+Improved code:
+# ########## #
+#Answer Format#
+json: code
+# ########## #

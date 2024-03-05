@@ -1,0 +1,14 @@
+#instruction#
+# ########## #
+#Example#
+# ########## #
+#Question#
+Code:
+{solution}
+Review your previous code and determine whether it's correct. If wrong, find the problems with your code.
+Finally, conclude with either '[[correct]]' if the above code is correct or '[[wrong]]' if it is incorrect.
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

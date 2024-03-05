@@ -1,0 +1,77 @@
+#instruction#
+Review the provided answer and determine whether it’s correct. If wrong, find the problems with it.
+Finally, conclude with either '[[correct]]' if the provided answer is correct or '[[wrong]]' if it is incorrect.
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 12/24/1937
+(F) 12/14/1988
+Answer: Let's think step by step.
+If today is Christmas Eve of 1937, then today's date is December 24, 1937. So the answer is (E).
+Verdict: The question asks for the date 10 days prior to December 24, 1937. To find this, we simply need to subtract 10 days from December 24, 1937. December 24, 1937 - 10 days = December 14, 1937. Therefore, the correct answer is December 14, 1937. The original answer provided was (E) 12/24/1937, which is actually the current date (Christmas Eve of 1937) and not the date 10 days prior.
+So the verdict is: [[wrong]]
+
+---
+
+Question: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+Answer: Let's think step by step.
+If tomorrow is 11/12/2019, then today is 11/11/2019. The date one year ago from today is 11/11/2018. So the answer is (B).
+Verdict: The question asks for the date one year ago from today, given that tomorrow is 11/12/2019. If today is 11/11/2019, then one year ago from today would indeed be 11/11/2018. The answer provided correctly identifies this date. Therefore, the correct answer is (B) 11/11/2018.
+So the verdict is: [[correct]]
+
+---
+
+Question: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1961
+(F) 12/03/1960
+Answer: Let's think step by step.
+If Jane and John married on Jan 2, 1958, then and if it is their 5-year anniversary today, then today's date is Jan 2, 1961. The date tomorrow is Jan 3, 1961, that is 01/03/1961. So the answer is (E).
+Verdict: The provided answer states that today's date is January 2, 1961, which would be their 3-year anniversary, not their 5-year anniversary. As such, the date provided for tomorrow, 01/03/1961, is incorrect.
+So the verdict is: [[wrong]]
+
+---
+
+Question: The founding day of City Z is July 15, 1892. It celebrated its 120th anniversary yesterday. What is the date today in MM/DD/YYYY?
+Options:
+(A) 07/16/2012
+(B) 07/16/1950
+(C) 07/16/2007
+(D) 07/16/1892
+(E) 08/15/2012
+(F) 07/16/1988
+Answer: Let's think step by step.
+If City Z was founded on July 15, 1892, and it celebrated its 120th anniversary yesterday, then yesterday's date was July 15, 2012. Therefore, today's date is July 16, 2012, which is 07/16/2012. So the answer is (A).
+Verdict: The question states that City Z celebrated its 120th anniversary on July 15, 1892. Adding 120 years, we get July 15, 2012, as the anniversary date. Since the anniversary was yesterday, today is July 16, 2012. The answer is (A), 07/16/2012. The original answer concludes that today's date is July 16, 2012, which is represented as 07/16/2012, and corresponds to option (A). This matches the logical deduction based on the information provided in the question.
+So the verdict is: [[correct]]
+
+---
+
+# ########## #
+#Question#
+Please consider the example provided and think it step by step.
+Question: {question}
+Answer: {solution}
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

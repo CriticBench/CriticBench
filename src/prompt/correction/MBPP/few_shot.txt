@@ -1,0 +1,106 @@
+#instruction#
+Based on the problems you found, improve your code in the form [BEGIN]\nimproved code\n[DONE].
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question:
+You are an expert Python programmer, and here is your task: Write a function to find the similar elements from the given two tuple lists. Your code should pass these tests:
+assert similar_elements((3, 4, 5, 6),(5, 7, 4, 10)) == (4, 5)
+assert similar_elements((1, 2, 3, 4),(5, 4, 3, 7)) == (3, 4)
+assert similar_elements((11, 12, 14, 13),(17, 15, 14, 13)) == (13, 14)
+Answer:
+def similar_elements(test_tup1, test_tup2):
+    res = tuple(test_tup1 & test_tup2)
+    return (res)
+Verdict: The provided function is incorrect. The '&' operator cannot be used directly with tuples to find common elements.
+So the verdict is: [[wrong]]
+Improved Code:
+[BEGIN]
+def similar_elements(test_tup1, test_tup2):
+    res = tuple(set(test_tup1) & set(test_tup2))
+    return (res)
+[DONE]
+
+---
+
+Question:
+You are an expert Python programmer, and here is your task: Write a python function to identify non-prime numbers. Your code should pass these tests:
+assert is_not_prime(2) == False
+assert is_not_prime(10) == True
+assert is_not_prime(35) == True
+Answer:
+import math
+def is_not_prime(n):
+    result = False
+    for i in range(2,int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            result = True
+    return result
+Verdict: The provided function is correct and meets all the test cases. It checks whether a number is non-prime by iterating from 2 to the square root of the number and returning True if any of these numbers divide the given number.
+So the verdict is: [[correct]]
+Improved Code:
+[BEGIN]
+import math
+def is_not_prime(n):
+    result = False
+    for i in range(2,int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            result = True
+    return result
+[DONE]
+
+---
+
+Question:
+You are an expert Python programmer, and here is your task: Write a function to find the largest integers from a given list of numbers using heap queue algorithm. Your code should pass these tests:
+assert heap_queue_largest( [25, 35, 22, 85, 14, 65, 75, 22, 58],3)==[85, 75, 65]
+assert heap_queue_largest( [25, 35, 22, 85, 14, 65, 75, 22, 58],2)==[85, 75]
+assert heap_queue_largest( [25, 35, 22, 85, 14, 65, 75, 22, 58],5)==[85, 75, 65, 58, 35]
+Answer:
+import heapq as hq
+def heap_queue_largest(nums,n):
+    largest_nums = hq.nlargest(n, nums)
+    return largest_nums
+Verdict: The provided function is correct and meets all the test cases. It uses the heapq.nlargest() function to find the n largest numbers from the given list.
+So the verdict is: [[correct]]
+Improved Code:
+[BEGIN]
+import heapq as hq
+def heap_queue_largest(nums,n):
+    largest_nums = hq.nlargest(n, nums)
+    return largest_nums
+[DONE]
+
+---
+
+Question:
+You are an expert Python programmer, and here is your task: Write a Python function that checks if a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, ignoring spaces, punctuation, and capitalization. Your function should return True if the input is a palindrome and False otherwise. Your code should pass these tests:
+assert is_palindrome("racecar") == True
+assert is_palindrome("hello") == False
+Answer:
+def is_palindrome(s):
+    s = ''.join(e for e in s if e.isalnum()).lower()
+    return s[::-1]
+Verdict: The provided code is almost correct but has a small issue. It returns the reversed string but doesn't compare it to the original string to check if it's a palindrome.
+So the verdict is: [[wrong]]
+Improved Code:
+[BEGIN]
+def is_palindrome(s):
+    s = ''.join(e for e in s if e.isalnum()).lower()
+    return s==s[::-1]
+[DONE]
+
+---
+
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Verdict: {critique}
+Improved Code:
+# ########## #
+#Answer Format#
+code
+# ########## #

@@ -1,0 +1,72 @@
+#instruction#
+# ########## #
+#Example#
+Table:
+[TITLE]: Plants per garden
+Stem | Leaf 
+3 | 3, 3, 3, 5, 5
+4 | 6
+5 | 4, 5, 7, 8
+6 | 7, 8
+7 | 2, 3, 7, 9
+8 | 6, 8, 9
+Question: The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 47 plants?
+Answer: Find the row with stem 4. Count all the leaves greater than or equal to 7.
+Count all the leaves in the rows with stems 5, 6, 7, and 8.
+You counted 13 leaves, which are blue in the stem-and-leaf plots above. 13 gardens have at least 47 plants.
+The answer is 13.
+
+Table:
+[TITLE]: Train tickets sold
+Day | Number of tickets
+Friday | 71
+Saturday | 74
+Sunday | 75
+Monday | 72
+Question: The transportation company tracked the number of train tickets sold in the past 4 days. On which day were the fewest train tickets sold?
+Options: (A) Friday (B) Saturday (C) Sunday (D) Monday
+Answer: Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 71.
+Now find the corresponding day. Friday corresponds to 71.
+The answer is (A).
+
+Table:
+[TITLE]: Renting movies last month
+Number of times | Frequency
+0 | 1
+1 | 18
+2 | 12
+3 | 13
+4 | 0
+Question: Employees at Eve's Movies tracked the number of movies that customers rented last month. How many customers are there in all?
+Answer: Add the frequencies for each row.\n\nAdd:
+1 + 18 + 12 + 13 + 0 = 44
+There are 44 customers in all.
+The answer is 44.
+
+Table:
+[TITLE]: Hammers sold
+Day | Number of hammers
+Thursday | 7
+Friday | 6
+Saturday | 6
+Sunday | 9
+Monday | 4
+Tuesday | 2
+Question: A hardware store monitored how many hammers it sold in the past 6 days. What is the range of the numbers?
+Answer: Read the numbers from the table.
+7, 6, 6, 9, 4, 2
+First, find the greatest number. The greatest number is 9.
+Next, find the least number. The least number is 2.
+Subtract the least number from the greatest number:
+9 - 2 = 7
+The range is 7.
+The answer is 7.
+
+# ########## #
+#Question#
+{question}
+Answer:
+# ########## #
+#Answer Format#
+The answer is mixed format
+# ########## #

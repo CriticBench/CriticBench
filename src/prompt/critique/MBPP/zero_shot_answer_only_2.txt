@@ -1,0 +1,16 @@
+#instruction#
+# ########## #
+#Example#
+# ########## #
+#Question#
+Question:
+{question}
+Answer:
+{solution}
+Verify whether your answer is correct, and provide an explanation.
+Finally, conclude with either '[[correct]]' if the above answer is correct or '[[wrong]]' if it is incorrect.
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

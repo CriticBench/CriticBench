@@ -1,0 +1,46 @@
+#instruction#
+Review the above answer and determine whether it’s correct. If wrong, find the problems with it.
+Finally, conclude with either '[[correct]]' if the above answer is correct or '[[wrong]]' if it is incorrect.
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: Could the members of The Police perform lawful arrests?
+Answer: The Police is a famous rock band, and its members are musicians, not law enforcement officers. They do not have the authority to perform lawful arrests. So the answer is no.
+Verdict: The above answer is correct. The question asks whether the members of The Police, which is a rock band, can perform lawful arrests. The answer correctly identifies that The Police is a band and its members are musicians, not law enforcement officers. Therefore, they do not possess the legal authority to conduct lawful arrests. The response accurately addresses the question with appropriate information.
+So the verdict is: [[correct]]
+
+---
+
+Question: Could Robert Wadlow hypothetically see Frankenstein's monster's bald spot from above?
+Answer: Robert Wadlow, also known as the "Alton Giant" or the "Alton Giant of Illinois," was the tallest person in recorded history, reaching a height of 8 feet 11 inches (272 cm). Frankenstein's monster is a fictional character from Mary Shelley's novel "Frankenstein." Since Frankenstein's monster is not a real entity and exists only in literature and films, there is no real bald spot to see. So the answer is no.
+Verdict: The response to the question about Robert Wadlow and Frankenstein's monster's bald spot is technically correct in stating that Frankenstein's monster is a fictional character and thus does not have a real bald spot. However, the question seems to be hypothetical and asks whether Robert Wadlow, due to his height, could see a bald spot on Frankenstein's monster if it existed. The answer should address the hypothetical nature of the question, possibly discussing the feasibility based on Wadlow's height and the fictional descriptions of Frankenstein's monster. The response, by focusing only on the fictional nature of the monster and not engaging with the hypothetical scenario, doesn't fully address the question as posed.
+So the verdict is: [[wrong]]
+
+---
+
+Question: Is the tibia necessary to win the Stanley Cup?
+Answer: No, the tibia (shinbone) is not necessary to win the Stanley Cup. Winning the Stanley Cup is an achievement in ice hockey, and it has no direct connection to the tibia bone in the human body. Success in sports like ice hockey depends on the skills, teamwork, and performance of the athletes, not their specific bones. So the answer is no.
+Verdict: The above answer is incorrect. The question asks whether the tibia is necessary to win the Stanley Cup, implying a question about the physical requirements for ice hockey players to compete effectively. The tibia, being a significant bone in the leg, is crucial for mobility and balance, which are essential for ice hockey players. The answer misinterprets the question as relating to the symbolic significance of the tibia in winning the Stanley Cup, rather than its practical importance in the physical ability to play ice hockey. While it's true that winning the Stanley Cup depends on skills, teamwork, and performance, having a healthy tibia is generally necessary for the physical activity involved in ice hockey.
+So the verdict is: [[wrong]]
+
+---
+
+Question: Is the language used in Saint Vincent and the Grenadines rooted in English?
+Answer: Yes, the official language used in Saint Vincent and the Grenadines is English. English is the primary language of communication and instruction in the country. So the answer is yes.
+Verdict: The above answer is correct. The question inquires about the linguistic roots in Saint Vincent and the Grenadines. The answer correctly states that English is the official language of Saint Vincent and the Grenadines. It is indeed the primary language used for communication and instruction in the country. This information is accurate and directly addresses the question posed.
+So the verdict is: [[correct]]
+
+---
+
+# ########## #
+#Question#
+Please consider the example provided and think it step by step.
+Question: {question}
+Answer: {solution}
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

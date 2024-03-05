@@ -1,0 +1,42 @@
+#instruction#
+Review the above answer and determine whether it’s correct. If wrong, find the problems with it.
+Finally, conclude with either '[[correct]]' if the above answer is correct or '[[wrong]]' if it is incorrect.
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: Based on when the project was being worked on, when did the Manhattan project begin and end?
+Answer: The Manhattan Project began in 1939 and ended in 1946. It was a research and development project during World War II that produced the first nuclear weapons. So the answer is: Began 1939, end 1946
+Verdict: The Manhattan Project actually began in 1942, not 1939, and was completed in 1946. It was indeed a research and development project during World War II that led to the creation of the first nuclear weapons. The incorrect start date in the answer makes it inaccurate. So the verdict is: [[wrong]]
+
+---
+
+Question: Who helped lewis and clark on their journey?
+Answer: Lewis and Clark were helped on their journey by the Corps of Discovery, which included members like Sacagawea, who served as an interpreter and guide. So the answer is: Sacagawea
+Verdict: The answer to the question "Who helped Lewis and Clark on their journey?" is correct. Lewis and Clark were assisted by the Corps of Discovery, which included Sacagawea, an important member who served as an interpreter and guide. Therefore, the answer identifying Sacagawea as a key helper is accurate. So the verdict is: [[correct]]
+
+---
+
+Question: Who does the voice of cortana in halo video games?
+Answer: The voice of Cortana in the Halo video games is provided by actress Jen Taylor. So the answer is: Jen Taylor
+Verdict: The answer provided for the voice of Cortana in the Halo video games is correct. Jen Taylor is indeed the actress who voices Cortana in the series. So the verdict is: [[correct]]
+
+---
+
+Question: Who is lin's father in legend of korra?
+Answer: In the animated series "The Legend of Korra," Lin Beifong's father is Toph Beifong, who is a prominent character in the Avatar universe and one of the original members of Team Avatar from the preceding series, "Avatar: The Last Airbender." So the answer is: Toph Beifong
+Verdict: In "The Legend of Korra," Lin Beifong's father is not Toph Beifong. Toph Beifong is Lin's mother. Lin's father is revealed to be a man named Kanto. This information is disclosed in season 4 of the series, making the original answer incorrect. So the verdict is: [[wrong]]
+
+---
+
+# ########## #
+#Question#
+Please consider the example provided and think it step by step.
+Question: {question}
+Answer: {solution}
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

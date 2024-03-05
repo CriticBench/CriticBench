@@ -1,0 +1,46 @@
+#instruction#
+Review the above answer and determine whether it’s correct. If wrong, find the problems with it.
+Finally, conclude with either '[[correct]]' if the above answer is correct or '[[wrong]]' if it is incorrect.
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: Herman likes to feed the birds in December, January and February.  He feeds them 1/2 cup in the morning and 1/2 cup in the afternoon.  How many cups of food will he need for all three months?
+Answer: Herman feeds the birds 1/2 cup in the morning and 1/2 cup in the afternoon, so each day he uses 1/2 + 1/2 = 1 cup of food. There are 3 months in total, so he will need 3 * 1 = 3 cups of food for all three months. The answer is 3.
+Verdict: The answer calculates Herman feeding the birds 1 cup of food per day (1/2 cup in the morning and 1/2 cup in the afternoon). However, it incorrectly multiplies this daily amount by 3, assuming there are only 3 days in three months, resulting in 3 cups of food for all three months. This is a significant error in understanding the duration of three months.
+So the verdict is: [[wrong]]
+
+---
+
+Question: Nancy, the librarian, is shelving books from the cart. She shelved 12 history books, 8 romance books, and 4 poetry books from the top section of the cart. Half the books on the bottom section of the cart were mystery books, which she quickly put back into place. Then, she shelved the remaining books from the bottom of the cart, including 5 Western novels and 6 biographies. How many books did she have on the book cart when she started?
+Answer: Nancy shelved 12 + 8 + 4 = 24 books from the top section. Half of the bottom section contained mystery books, so there were 2 * (5 + 6) = 22 books on the bottom section. In total, she shelved 24 + 22 = 46 books. Since she put back the mystery books quickly and shelved the remaining books, there were 46 books on the cart when she started. The answer is 46.
+Verdict: The given answer accurately deduces that the bottom section of the cart holds twice as many books as the combined total of Western novels and biographies (5 Western + 6 biographies = 11 books). This leads to a count of 22 books in the bottom section (2 * 11). Adding this to the 24 books from the top section (12 history + 8 romance + 4 poetry), the total comes to 46 books.
+So the verdict is: [[correct]]
+
+---
+
+Question: John's cow weighs 400 pounds. It increased its weight to 1.5 times its starting weight. He is able to sell the cow for 3 per pound. How much more is it worth after gaining the weight?
+Answer: 1.5 times the original weight is 400 * 1.5 = 600 pounds. The cow's value is 3 per pound, so its value has increased by 600 * (3 - 1) = 1200. The answer is 1200.
+Verdict: The given answer calculates the cow's new weight after the increase as 1.5 times its original weight (400 pounds), resulting in 600 pounds. The next step, however, is where the error occurs. It calculates the cow's increased value as 600 * (3 - 1) = 1200. This calculation incorrectly assumes that the value per pound has increased by 2 dollars, which is not supported by the information given. The question asks for the increase in the cow's worth due to its weight gain, not a change in its value per pound.
+So the verdict is: [[wrong]]
+
+---
+
+Question: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?
+Answer: Weng earns $12 per hour for babysitting. Yesterday, she babysat for 50 minutes, which is equivalent to 50/60 = 5/6 of an hour. To calculate her earnings, multiply her hourly rate by the fraction of an hour she worked: $12 * 5/6 = $10. Weng earned $10 for her 50 minutes of babysitting. The answer is 10.
+Verdict: The given answer accurately calculates Weng's earnings for babysitting for 50 minutes. It correctly identifies that 50 minutes is 5/6 of an hour and then multiplies this fraction by her hourly rate of $12. The calculation of $12 * 5/6 equals $10, which is the correct amount Weng earned for her 50 minutes of babysitting.
+So the verdict is: [[correct]]
+
+---
+
+# ########## #
+#Question#
+Please consider the example provided and think it step by step.
+Question: {question}
+Answer: {solution}
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

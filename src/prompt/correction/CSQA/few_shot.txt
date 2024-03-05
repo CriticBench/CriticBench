@@ -1,0 +1,54 @@
+#instruction#
+Based on the problems you found, improve your answer. You must choose only one option from A to E. Please reiterate your answer, with your final answer a single letter from A to E, in the form [[answer]].
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: To locate a choker not located in a jewelry box or boutique where would you go? Answer Choices: (a) jewelry store (b) neck (c) jewlery box (d) jewelry box (e) boutique
+Answer: If you want to locate a choker that is not in a jewelry box or boutique, you would most likely go to your neck (b) since a choker is a type of necklace that is worn around the neck. So the answer is (b).
+Verdict: The question asks where you would find a choker if it's not located in a jewelry box or boutique. The given answer suggests that the choker would be found on your neck, which is a logical place for a choker when it is being worn.
+However, the question seems to be seeking a location where one might find a choker for purchase or retrieval other than a jewelry box or boutique. The options provided are (a) jewelry store, (b) neck, (c) jewelry box, (d) jewelry box, and (e) boutique.
+Considering the context, option (a) jewelry store is the most appropriate answer. A jewelry store is a common place to find chokers for purchase or display, apart from a jewelry box or boutique. The given answer assumes the choker is being worn, which is not necessarily implied by the question.
+So the verdict is: [[wrong]]
+Improved Answer: The improved answer is: [[a]] jewelry store.
+
+---
+
+Question: Google Maps and other highway and street GPS services have replaced what? Answer Choices: (a) united states (b) mexico (c) countryside (d) atlas (e) oceans
+Answer: The answer to this question is (d) atlas. Google Maps and other GPS services have replaced the need for paper atlases, as they provide detailed maps and directions electronically. So the answer is (d).
+Verdict: The question asks what Google Maps and other highway and street GPS services have replaced. The given answer suggests that the correct answer is (d) atlas, which is accurate. Google Maps and similar GPS services provide digital mapping, navigation, and route planning capabilities, effectively replacing the traditional use of paper atlases for these purposes.
+Given this context, the given answer is indeed correct as Google Maps and similar services have largely supplanted the need for physical atlases for navigation and map-reading purposes.
+So the verdict is: [[correct]]
+Improved Answer: The answer is [[d]]
+
+---
+
+Question: The man uses grooming before a job interview, what is he trying to portray? Answer Choices: (a) looking good (b) beauty (c) tardiness (d) handsomeness (e) neatness
+Answer: The answer should be the impression or image the man is trying to convey. Of the above choices, handsomeness" are the most appropriate options for the impression the man is trying to portray in a job interview. So the answer is (d).
+Verdict: The question is about what a man is trying to portray by grooming before a job interview. The answer choices are (a) looking good, (b) beauty, (c) tardiness, (d) handsomeness, and (e) neatness. The provided answer suggests that the choice is (d) handsomeness.
+However, the context of a job interview implies that the man is likely trying to present himself as professional and well-prepared, which is more aligned with the concept of neatness or looking good in a professional sense.
+Therefore, the more appropriate answer would be (e) neatness, as they are more closely related to the intent of appearing well-groomed and professional in a job interview setting.
+So the verdict is: [[wrong]]
+Improved Answer: The answer is [[e]]
+
+---
+
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what? Answer Choices: (a) reality (b) imagination (c) dreamworker (d) nightmare (e) awake
+Answer: The answer should be something that Stanley had trouble distinguishing his dream from. In this case, the answer is (a) reality. Stanley had trouble telling his vivid and scary dream from reality. So the answer is (a).
+Verdict: The question asks what Stanley had trouble distinguishing his vivid and scary dream from. The given answer states that the correct choice is (a) reality, indicating that Stanley had difficulty telling his dream apart from real life. This interpretation is consistent with the typical use of the phrase "had trouble telling it from" in the context of dreams. It suggests that the dream felt so real to Stanley that he struggled to differentiate it from actual events or experiences.
+So the verdict is: [[correct]]
+Improved Answer: The answer is [[a]]
+
+---
+
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Verdict: {critique}
+Improved Answer:
+# ########## #
+#Answer Format#
+[[]]
+# ########## #

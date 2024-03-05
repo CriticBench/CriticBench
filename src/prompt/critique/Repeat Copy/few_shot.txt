@@ -1,0 +1,66 @@
+#instruction#
+Review the provided answer and determine whether it’s correct. If wrong, find the problems with it.
+Finally, conclude with either '[[correct]]' if the provided answer is correct or '[[wrong]]' if it is incorrect.
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: Say pickup a pound of green beans twice, replacing a pound with a bunch for even times and a handful for odd
+Answer: pickup a handful of green beans pickup a bunch of green beans
+Verdict: Let's break down the instruction:
+The instruction is to "pick up a pound of green beans twice".
+For even times, replace "a pound" with "a bunch".
+For odd times, replace "a pound" with "a handful".
+Following these instructions:
+The first time (odd), "pick up a pound of green beans" becomes "pick up a handful of green beans".
+The second time (even), "pick up a pound of green beans" becomes "pick up a bunch of green beans".
+Therefore, the provided answer of "pick up a handful of green beans pick up a bunch of green beans" matches the instructions given.
+So the verdict is: [[correct]]
+
+---
+
+Question: Repeat a woodchuck chucks lots of wood two times, but replace lots with five pounds the first time and two tons the second time
+Answer: a woodchuck chucks two tons of wood a woodchuck chucks two tons of wood
+Verdict: Let's analyze the instruction and the response:
+Repeat "a woodchuck chucks lots of wood" two times.
+Replace "lots" with "five pounds" the first time.
+Replace "lots" with "two tons" the second time.
+The provided answer, "a woodchuck chucks two tons of wood a woodchuck chucks two tons of wood", incorrectly uses "two tons" for both repetitions.
+So the verdict is: [[wrong]]
+
+
+---
+
+Question: Repeat squiggly line twice after the phrase can you draw
+Answer: can you draw squiggly line squiggly line
+Verdict: The provided answer is correct. The instruction is to repeat "squiggly line" twice after the phrase "can you draw". The correct response would be "can you draw squiggly line squiggly line", which is exactly what the provided answer states.
+So the verdict is: [[correct]]
+
+---
+
+Question: Say stack ten bricks three times, replacing ten with twenty for even times and five for odd times.
+Answer: stack five bricks stack twenty bricks stack ten bricks.
+Verdict: According to the instruction:
+Say "stack ten bricks" three times.
+Replace "ten" with "twenty" for even times.
+Replace "ten" with "five" for odd times.
+Applying these rules:
+First time (odd): Replace "ten" with "five", resulting in "stack five bricks".
+Second time (even): Replace "ten" with "twenty", resulting in "stack twenty bricks".
+Third time (odd again): Replace "ten" with "five", resulting in "stack five bricks".
+The provided answer incorrectly says "stack ten bricks" for the third time instead of replacing "ten" with "five".
+So the verdict is: [[wrong]]
+
+---
+
+# ########## #
+#Question#
+Please consider the example provided and think it step by step.
+Question: {question}
+Answer: {solution}
+Verdict:
+# ########## #
+#Answer Format#
+[[correct/wrong]]
+# ########## #

@@ -1,0 +1,104 @@
+#instruction#
+Based on the problems you found, improve your answer. Please reiterate your answer, with your final answer a single numerical number, in the form [[answer]].
+Here are some examples:
+# ########## #
+#Example#
+---
+
+Question: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+Answer: Let's think step by step.
+We first identify the fruits on the list and include their quantity in parentheses:
+- blackberry (1)
+- nectarine (1)
+- plum (1)
+- strawberry (1)
+- banana (1)
+- orange (1)
+- clarinet (1)
+- flute (1)
+- violin (1)
+Now, let's add the numbers in parentheses: 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 9. So the answer is 9.
+Verdict: The provided answer correctly identifies the fruits on the list and includes their quantities in parentheses, but it fails to recognize that a clarinet, a flute, and a violin are not fruits, so they should not be included in the count of fruits. Therefore, the correct answer should be 6, not 9.
+So the verdict is: [[wrong]]
+Improved Answer: Let's think step by step.
+We first identify the fruits on the list and include their quantity in parentheses:
+- blackberry (1)
+- nectarine (1)
+- plum (1)
+- strawberry (1)
+- banana (1)
+- orange (1)
+Now, let's add the numbers in parentheses: 1 + 1 + 1 + 1 + 1 + 1 = 6. The answer is [[6]].
+
+---
+
+Question: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+Answer: Let's think step by step.
+We first identify the fruits on the list and include their quantity in parentheses:
+- orange (1)
+- raspberry (1)
+- peaches (2)
+- blackberry (1)
+- apple (1)
+- grape (1)
+- nectarine (1)
+- plums (3)
+Now, let's add the numbers in parentheses: 1 + 1 + 2 + 1 + 1 + 1 + 1 + 3 = 11. So the answer is 11.
+Verdict: The provided answer is correct. It accurately identifies the fruits on the list and includes their quantities in parentheses. Then, it correctly adds up the numbers in parentheses to find that there are 11 fruits in total.
+So the verdict is: [[correct]]
+Improved Answer: The answer is [[11]].
+
+---
+
+Question: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+Answer: Let's think step by step.
+We first identify the vegetables on the list and include their quantity in parentheses:
+- lettuce (1)
+- broccoli (1)
+- onion (1)
+- celery (1)
+- carrot (1)
+- garlic (1)
+- yam (1)
+Now, let's add the numbers in parentheses: 1 + 1 + 1 + 1 + 1 + 1 + 1 = 7. So the answer is 7.
+Verdict: The provided answer is  accurately identifies the vegetables on the list and includes their quantities in parentheses for most items. However, it incorrectly states that there is only 1 carrot when there are actually two carrots mentioned in the list. Therefore, the correct answer should be 8, not 7.
+So the verdict is: [[wrong]]
+Improved Answer: Let's think step by step.
+We first identify the vegetables on the list and include their quantity in parentheses:
+- lettuce (1)
+- broccoli (1)
+- onion (1)
+- celery (1)
+- carrots (2)
+- garlic (1)
+- yam (1)
+Now, let's add the numbers in parentheses: 1 + 1 + 1 + 1 + 2 + 1 + 1 = 8. The answer is [[8]].
+
+---
+
+
+Question: I have a basket with different fruits in it. The fruits include 3 apples, 2 bananas, 4 oranges, 1 pineapple, and 5 strawberries. How many fruits do I have in total?
+Answer: Let's break it down step by step.
+We first identify the types of fruits in the basket and include their quantities in parentheses:
+apples (3)
+bananas (2)
+oranges (4)
+pineapple (1)
+strawberries (5)
+Now, let's add the numbers in parentheses: 3 + 2 + 4 + 1 + 5 = 15. So the answer is 15.
+Verdict: The provided answer is correct. It accurately identifies the types of fruits in the basket and includes their quantities in parentheses. Then, it correctly adds up the numbers in parentheses to find that there are 15 fruits in total.
+So the verdict is: [[correct]]
+Improved Answer: The answer is [[15]].
+
+---
+
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Verdict: {critique}
+Improved Answer:
+# ########## #
+#Answer Format#
+[[]]
+# ########## #

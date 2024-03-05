@@ -1,0 +1,14 @@
+#instruction#
+# ########## #
+#Example#
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Verdict: {critique}
+Based on the problems you found, improve your answer. Please reiterate your solution, with your final answer as either a single numerical number or one option from A to D, in the JSON format as follows: {"solution":"improved solution", "answer":"your answer"}.
+Improved solution and answer:
+# ########## #
+#Answer Format#
+json: answer
+# ########## #

@@ -1,0 +1,14 @@
+#instruction#
+# ########## #
+#Example#
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Analysis and verdict: {critique}
+Based on the problems you found, improve your answer. You must choose only one option. Please reiterate your solution, with your final answer being a single letter, in the JSON format as follows: {"solution":"improved solution", "answer":"your answer"}.
+Improved solution and answer:
+# ########## #
+#Answer Format#
+json: answer
+# ########## #

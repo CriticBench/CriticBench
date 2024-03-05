@@ -1,0 +1,22 @@
+#instruction#
+Follow basic instructions to repeat parts of the input
+
+# ########## #
+#Example#
+Question: Say pickup a pound of green beans twice, replacing a pound with a bunch for even times and a handful for odd
+Answer: pickup a handful of green beans pickup a bunch of green beans
+
+Question: Repeat a woodchuck chucks lots of wood two times, but replace lots with five pounds the first time and two tons the second time
+Answer: a woodchuck chucks five pounds of wood a woodchuck chucks two tons of wood
+
+Question: Repeat squiggly line twice after the phrase can you draw
+Answer: can you draw squiggly line squiggly line
+
+# ########## #
+#Question#
+Question: {question}
+Answer:
+# ########## #
+#Answer Format#
+full
+# ########## #

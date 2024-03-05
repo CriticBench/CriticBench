@@ -1,0 +1,14 @@
+#instruction#
+# ########## #
+#Example#
+# ########## #
+#Question#
+Question: {question}
+Answer: {solution}
+Review your previous answer and find problems with your answer.
+Provide your analysis and verdict in JSON format as follows: {"analysis": "your analysis", "verdict": "correct or wrong"}.
+Analysis and verdict:
+# ########## #
+#Answer Format#
+json: verdict
+# ########## #

@@ -1,0 +1,59 @@
+#instruction#
+# ########## #
+#Example#
+from typing import List
+
+
+def has_similar_word_lengths(words: List[str], threshold: int) -> bool:
+    """
+    Check if in the given list of words, are any two words whose length difference is less than or equal to the given threshold.
+    >>> has_similar_word_lengths(["hello", "world", "hi", "python"], 2)
+    True
+    >>> has_similar_word_lengths(["chat", "learning", "ai"], 1)
+    False
+    """
+    for i in range(len(words)):
+        for j in range(i + 1, len(words)):
+            if abs(len(words[i]) - len(words[j])) <= threshold:
+                return True
+    return False
+
+---
+
+def find_smallest_divisor(n: int) -> int:
+    """
+    Return the smallest divisor of n greater than 1. Assume n > 1.
+    >>> find_smallest_divisor(15)
+    3
+    >>> find_smallest_divisor(37)
+    37
+    """
+    for i in range(2, n + 1):
+        if n % i == 0:
+            return i
+    return n
+
+---
+
+def last_digit_sum(a: int, b: int) -> int:
+    """
+    Complete the function that takes two integers and returns the sum of their last digits.
+    Assume the input is always valid.
+
+    Examples:
+    last_digit_sum(123, 453) should return 6 (3 + 3).
+    last_digit_sum(789, 10) should return 9 (9 + 0).
+    last_digit_sum(100, 27) should return 7 (0 + 7).
+    last_digit_sum(25, -31) should return 6 (5 + 1).
+    """
+    return abs(a % 10) + abs(b % 10)
+
+---
+
+# ########## #
+#Question#
+{question}
+# ########## #
+#Answer Format#
+code
+# ########## #
